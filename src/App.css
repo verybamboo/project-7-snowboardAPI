@@ -1,38 +1,54 @@
-.App {
+
+* {
+  text-shadow: 2px 2px 4px black, 0 0 1em black, 0 0 .25em white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3{
+  font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p{
   color: white;
+  font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.maincontainer{
+  background-image: url("./img/snowboard-background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.first{
+  width: 50vh;
+  height: 100vh;
+  text-align: center;
+  border: 2px solid aqua;
+}
+
+.second{
+  width: 50vh;
+  height: 100vh;
+  text-align: center;
+  border: 2px solid aqua;
+}
+
+.third{
+  width: 50vh;
+  height: 100vh;
+  text-align: center;
+  border: 2px solid aqua;
+}
+
+.fourth{
+  width: 85vh;
+  height: 100vh;
+  text-align: center;
+  border: 2px solid aqua;
+}
+
+.carousel{
+  display: flex;
+  justify-content: center;
 }
