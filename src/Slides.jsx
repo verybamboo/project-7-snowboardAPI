@@ -3,7 +3,6 @@ import Carousel from 'react-bootstrap/Carousel'
 import evilTwin from './img/bataleon-evil-twin.png'
 import goliath from "./img/bataleon-goliath.png"
 import stallion from "./img/bataleon-stallion.png"
-import storm from "./img/bataleon-storm.png"
 import instigator from "./img/burton-instigator.png"
 import survival from "./img/capita-indoorsurvival.png"
 import surfer from "./img/bataleon-surfer.png"
@@ -14,6 +13,8 @@ import kazukoku from "./img/capita-kazukokubopro.png"
 import mercury from "./img/capita-mercury.png"
 import powderTwin from "./img/capita-powdertwin.png"
 import asymulator from "./img/capita-asymulator.png"
+import disaster from "./img/bataleon-disaster.png"
+import hometown from "./img/burton-hometown.png"
 
 
 //import snowboards from "./snowboards";
@@ -36,7 +37,7 @@ function Slides(props) {
       </Carousel.Item>
       <Carousel.Item interval={4000}>
         <img
-          className="second"
+          className="first"
           src={powderTwin}
           alt="Second slide"
         />
@@ -49,7 +50,7 @@ function Slides(props) {
     </Carousel.Item>
     <Carousel.Item interval={4000}>
       <img
-        className="third"
+        className="first"
         src={asymulator}
         alt="Third slide"
      />
@@ -75,7 +76,7 @@ function Slides(props) {
     </Carousel.Item>
     <Carousel.Item interval={4000}>
       <img
-        className="third"
+        className="first"
         src={kazukoku}
         alt="Fifth slide"
      />
@@ -103,7 +104,7 @@ function Slides(props) {
       <img
         className="fourth"
         src={stallion}
-        alt="Sixth slide"
+        alt="Seventh slide"
      />
       <Carousel.Caption>
         {props.snowboards && <h3>Model: {props.snowboards[6].model}</h3>}
@@ -116,7 +117,7 @@ function Slides(props) {
       <img
         className="fourth"
         src={goliath}
-        alt="Sixth slide"
+        alt="Eighth slide"
      />
       <Carousel.Caption>
         {props.snowboards && <h3>Model: {props.snowboards[7].model}</h3>}
@@ -128,8 +129,8 @@ function Slides(props) {
     <Carousel.Item interval={4000}>
       <img
         className="fourth"
-        src={stallion}
-        alt="Sixth slide"
+        src={disaster}
+        alt="Ninth slide"
      />
       <Carousel.Caption>
         {props.snowboards && <h3>Model: {props.snowboards[8].model}</h3>}
@@ -137,8 +138,87 @@ function Slides(props) {
         {props.snowboards && <p>Brand: {props.snowboards[8].year}</p>}
         {props.snowboards && <p>Sizes: {props.snowboards[8].sizes.toString()}</p>}
       </Carousel.Caption>
-    </Carousel.Item>  
-  </Carousel>
+      </Carousel.Item>
+    <Carousel.Item interval={4000}>
+      <img
+        className="fourth"
+        src={evilTwin}
+        alt="Tenth slide"
+     />
+      <Carousel.Caption>
+        {props.snowboards && <h3>Model: {props.snowboards[9].model}</h3>}
+        {props.snowboards && <p>Brand: {props.snowboards[9].brand}</p>}
+        {props.snowboards && <p>Brand: {props.snowboards[9].year}</p>}
+        {props.snowboards && <p>Sizes: {props.snowboards[9].sizes.toString()}</p>}
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item interval={4000}>
+      <img
+        className="second"
+        src={process}
+        alt="Eleventh slide"
+     />
+      <Carousel.Caption>
+        {props.snowboards && <h3>Model: {props.snowboards[10].model}</h3>}
+        {props.snowboards && <p>Brand: {props.snowboards[10].brand}</p>}
+        {props.snowboards && <p>Brand: {props.snowboards[10].year}</p>}
+        {props.snowboards && <p>Sizes: {props.snowboards[10].sizes.toString()}</p>}
+      </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={4000}>
+      <img
+        className="fourth"
+        src={hometown}
+        alt="Twelfth slide"
+     />
+      <Carousel.Caption>
+        {props.snowboards && <h3>Model: {props.snowboards[11].model}</h3>}
+        {props.snowboards && <p>Brand: {props.snowboards[11].brand}</p>}
+        {props.snowboards && <p>Brand: {props.snowboards[11].year}</p>}
+        {props.snowboards && <p>Sizes: {props.snowboards[11].sizes.toString()}</p>}
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item interval={4000}>
+      <img
+        className="second"
+        src={custom}
+        alt="Thirteenth slide"
+     />
+      <Carousel.Caption>
+        {props.snowboards && <h3>Model: {props.snowboards[12].model}</h3>}
+        {props.snowboards && <p>Brand: {props.snowboards[12].brand}</p>}
+        {props.snowboards && <p>Brand: {props.snowboards[12].year}</p>}
+        {props.snowboards && <p>Sizes: {props.snowboards[12].sizes.toString()}</p>}
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item interval={4000}>
+      <img
+        className="fourth"
+        src={nameDropper}
+        alt="Fourteenth slide"
+     />
+      <Carousel.Caption>
+        {props.snowboards && <h3>Model: {props.snowboards[13].model}</h3>}
+        {props.snowboards && <p>Brand: {props.snowboards[13].brand}</p>}
+        {props.snowboards && <p>Brand: {props.snowboards[13].year}</p>}
+        {props.snowboards && <p>Sizes: {props.snowboards[13].sizes.toString()}</p>}
+      </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={4000}>
+      <img
+        className="fourth"
+        src={instigator}
+        alt="Fifteenth slide"
+     />
+      <Carousel.Caption>
+        {props.snowboards && <h3>Model: {props.snowboards[14].model}</h3>}
+        {props.snowboards && <p>Brand: {props.snowboards[14].brand}</p>}
+        {props.snowboards && <p>Brand: {props.snowboards[14].year}</p>}
+        {props.snowboards && <p>Sizes: {props.snowboards[14].sizes.toString()}</p>}
+      </Carousel.Caption>
+    </Carousel.Item>
+    
+</Carousel>
     )
 }
   
