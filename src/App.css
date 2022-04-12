@@ -1,6 +1,6 @@
 
 * {
-  text-shadow: 2px 2px 4px black, 0 0 1em black, 0 0 .25em white;
+  text-shadow: 5px 5px 10px black, 0 0 1em black, 0 0 .25em white;
   text-align: center;
 }
 
@@ -11,6 +11,7 @@ h3{
 p{
   color: white;
   font-size: 25px;
+  opacity: 1;
 }
 
 .maincontainer{
@@ -24,28 +25,24 @@ p{
   width: 50vh;
   height: 100vh;
   text-align: center;
-  border: 2px solid aqua;
 }
 
 .second{
   width: 100vh;
   height: 100vh;
   text-align: center;
-  border: 2px solid aqua;
 }
 
 .third{
   width: 50vh;
   height: 100vh;
   text-align: center;
-  border: 2px solid aqua;
 }
 
 .fourth{
   width: 85vh;
   height: 100vh;
   text-align: center;
-  border: 2px solid aqua;
 }
 
 .carousel{
