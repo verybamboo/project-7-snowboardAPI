@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# React Front-End Project 7
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project 7: React Front-End
 
-## Available Scripts
+<img width="1439" alt="Screen Shot 2022-04-24 at 2 41 44 PM" src="https://user-images.githubusercontent.com/57966235/164991823-6712ddd2-d3d4-448e-a19b-bae5704c53b2.png">
 
-In the project directory, you can run:
+Git: https://github.com/verybamboo/project-7-snowboardAPI
 
-### `npm start`
+Deployed: https://magical-pony-32b9cd.netlify.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+A React front-end made using an existing API made by a fellow cohort student. Emil.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Description
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A webpage front-end made with an API that was created by Emil. I took what information he had on the API and was able to create this website. I added my own design choices and chose my own images.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Thoughts and Approach
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+I use React bootstrap to import and use the carousel components. This was the first time I tried using carousel and it turned out to be very interesting.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Issues
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. One issue that came up was that the images from the API were not PNGS and thus I could not use them for the website. I instead had to convert those images into transparent background images in order to use them.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Future Goals
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Stylistic changes, perhaps more things to populate the page.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Technologies Used
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. CSS
+2. HTML
+3. JavaScript
+4. React
+5. Netlify
